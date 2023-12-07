@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/image-library-app/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
